@@ -1,0 +1,12 @@
+{
+  "module": "main",
+  "function": "server",
+  "runtime": "python-wasix",
+  "http": {
+    "expose": true,
+    "cors": true
+  },
+  "env": {
+    "pythonunbuffered": "1"
+  }
+}
